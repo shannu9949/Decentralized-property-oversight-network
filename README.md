@@ -16,8 +16,8 @@ The first things you need to do are cloning this repository and installing its
 dependencies:
 
 ```sh
-git clone https://github.com/shannu9949/Decentralized property oversight network.git
-cd Decentralized property oversight network
+git clone https://github.com/shannu9949/Decentralized-property-oversight-network.git
+cd Decentralized-property-oversight-network
 npm install
 ```
 
@@ -27,14 +27,14 @@ Navigate to contracts folder and copy copy the Real_estate.sol
 so open remix IDE to compile the contract and deploy into local hardhat network.
 Now  run local hardhat network by following below commands
 ```sh
-cd Decentralized property oversight network
+cd Decentralized-property-oversight-network
 npx hardhat node
 ```
 Now in Remix IDE compile the contract and select environment as Dev-Hardhat provider(This will connect to the local hardhat network)
 Deploy the contract and paste the deployed address in the (frontend/src/Header.js) 
 Now compile the contract again in hardaht setup for abi and byte code to interact with contract, for this follow below command
 ```sh
-cd Decentralized property oversight network
+cd Decentralized-property-oversight-network
 npx hardhat compile
 ```
 Finally, we can run the frontend with:
